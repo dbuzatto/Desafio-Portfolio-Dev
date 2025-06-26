@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-.container {
+.container1 {
     width: 1040px;
     height: 447px;
     margin: 120px 163px 183px 163px;
@@ -60,7 +60,7 @@
     color: var(--gray-300);
 }
 
-.name {
+.red {
     font: var(--subtitle);
     color: var(--color-red);
 }
@@ -70,7 +70,7 @@
   flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
-  margin-top: 80px;
+  margin: 80px auto 94px auto;
 }
 
 .tech-tag {
