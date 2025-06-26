@@ -1,0 +1,90 @@
+.intro {
+    background-image: url(../assets/images/Background_Intro.png);
+    width: 100vw;
+    height: 750px;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1040px;
+    height: 447px;
+    margin: 120px 163px 183px 163px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sub {
+    width: 680px;
+}
+
+.profile-img {
+    width: 95px; 
+    height: 95px;
+    padding: 4px;
+    background-color: var(--color-red); 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 284px 56px 284px;
+}
+
+.profile-img img {
+    width: 87.27px;
+    height: 87.27px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.subtitle {
+    font: var(--subtitle);
+    color: var(--gray-200);
+    margin-bottom: 8px;
+}
+
+.title-lg{
+    font: var(--title-lg);
+    color: var(--gray-100);
+    margin-bottom: 20px;
+}
+
+.text-sm {
+    font: var(--text-sm);
+    color: var(--gray-300);
+}
+
+.name {
+    font: var(--subtitle);
+    color: var(--color-red);
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.tech-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--gray-400); 
+  color: var(--gray-200);
+  font: var(--text-md);
+  border-radius: 999px;
+  padding: 8px 16px;
+  height: 40px;
+}
+
+
+
+
