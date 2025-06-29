@@ -1,0 +1,95 @@
+#contact {
+    width: 100vw;
+    height: 787px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/images/Background_Contacts.png');
+}
+
+
+.arrow {
+    width: 12px !important;
+    height: 12px !important;
+    display: block;
+    margin: 24px 20px 24px auto;
+}
+
+
+#contact header {
+    display: grid;
+    justify-content: center;
+    gap: 8px;
+}
+
+#contact #purple {
+    color: #BB72E9;
+}
+
+#contact h2 {
+    color: var(--gray-100);
+}
+
+#contact p {
+    color: var(--gray-200);
+}
+
+.contact-grid {
+    display: grid;
+    place-items: center;
+    gap: 16px;
+}
+
+.contact-box {
+    background-color: var(--gray-400);
+    width: 400px;
+    height: 66px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.conteudo {
+    display: flex;
+    gap: 14.63px;
+    align-items: center;
+    width: 100%;
+}
+
+.conteudo img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.font-maven {
+    font-family: var(--font-maven);
+    color: var(--gray-200);
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.contact-box:hover {
+    border: 1px solid #3996DB;
+}
+
+.contact-box:hover .conteudo,
+.contact-box:hover .conteudo img,
+.contact-box:hover .font-maven {
+    color: #3996DB;
+    fill: #3996DB;
+}
+
+.contact-box:hover .conteudo img {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(74%) saturate(747%) hue-rotate(176deg) brightness(97%) contrast(92%);
+}
+.contact-box:hover .conteudo p,
+.contact-box:hover .font-maven {
+    color: #3996DB !important;
+}

@@ -27,6 +27,11 @@ header {
   overflow: hidden;
 }
 
+
+.project-card:hover{
+  border: 1px solid var(--gray-300);
+}
+
 .project-card img {
   width: 306px;
   height: 157px;

@@ -8,6 +8,11 @@ body {
   background-color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 :root {
   /* Fontes */
   --font-asap: 'Asap', sans-serif;
@@ -50,3 +55,5 @@ body {
   --gray-500: #16181D;
   --gray-600: #0D0E11;
 }
+
+
