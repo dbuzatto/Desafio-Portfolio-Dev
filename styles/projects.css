@@ -1,4 +1,4 @@
-.projects {
+#projects {
   background-color: var(--gray-500);
 }
 
@@ -7,13 +7,15 @@
 }
 
 header {
-  margin: 72px 163px 56px 163px;
+  padding-top: 72px;
+  margin: 0px 163px 56px 163px;
   text-align: center;
 }
 
 .project-grid {
   max-width: 1040px;
-  margin: 0 auto 144px auto;
+  padding-bottom: 144px;
+  margin: 0 auto 0px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;

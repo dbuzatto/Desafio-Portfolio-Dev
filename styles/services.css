@@ -1,0 +1,39 @@
+#services {
+  background-color: var(--gray-600);
+  width: 100%;
+  padding: 88px 0; 
+}
+
+#services header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#h2services {
+  color: var(--gray-100);
+}
+
+h3 {
+  color: var(--gray-100);
+}
+
+.service {
+  margin: auto 20px 20px 20px;
+}
+
+.service-card{
+  img {
+    margin: 20px 212px 20px 20px
+  }
+  width: 280px;
+  height: 155px;
+  border: 2px solid var(--gray-500);
+  border-radius: 12px;
+}
+
+.services-grid {
+  margin: 56px 239px 120px 239px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
